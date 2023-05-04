@@ -4,7 +4,7 @@ endgame: singularity only works with pygame 1.9.6
 ## How to launch the game
 launch with
 
-```SDL_VIDEODRIVER=x11 singularity```
+```SDL_VIDEODRIVER=x11 nix run .```
 
 if you are on wayland
 
